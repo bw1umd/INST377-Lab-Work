@@ -3,3 +3,84 @@
     - The styles in this folder's `style.css`
     - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
 -->
+
+<html lang="en-US">
+
+<head>
+    <meta charset='UTF-8' />
+    <title>Bo's Labs For INST377</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="header">
+            <h1>
+                Bo's Labs For INST377
+            </h1>
+        </div>
+
+        <div class="container">
+            <div class="left box">
+                <h2>
+                    Albums
+                </h2>
+                <ol class="list box" style="padding-left: 35px">
+                    <li> Rodney Atkins - Take a back road </li>
+                    <li> Cole Swindell - You should be here </li>
+                    <li> Luke Bryan - Crash my party </li>
+                    <li> Rascal Flatts - Feels Like Today</li>
+                    <li> Luke Combs - This one's for you </li>
+                </ol>
+            </div>
+
+            <div class="right box">
+                <h2 class="image head">
+                    Image carousel
+                </h2>
+
+                <div class="carousel">
+
+                    <button class="prev"> Prev </button>
+
+                    <div class="slides">
+                        <div class="item visible">
+                            <img src='images/1964_AstonMartin_DB53.jpg' alt='DB53' />
+                        </div>
+                        <div class="item hidden">
+                            <img src='images/1964_AstonMartin_DB52.jpg' alt='DB52' />
+                        </div>
+                        <div class="item hidden">
+                            <img src='images/1969_BMW_2800Spicup1.jpg' alt='280' />
+                        </div>
+                        <div class="item hidden">
+                            <img src='images/1969_Dodge_Charger_Daytona.jpg' alt='charger' />
+                        </div>
+                        <div class="item hidden">
+                            <img src='images/1969_Dodge_Charger_Daytona_Hemi.jpg' alt='charger' />
+                        </div>
+                    </div>
+                    
+                    <button class="next"> Next </button>
+                    
+                </div>
+
+
+                <div class="caption box">
+                    Press Next for the next slide, Prev for the previous slide
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        My Github account name
+        <a href="https://github.com/bw1umd/INST377-Lab-Work.git">bw1umd</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
