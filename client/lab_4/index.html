@@ -12,6 +12,8 @@
 
 <head>
     <meta charset='UTF-8' />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bo's Labs For INST377</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -27,52 +29,20 @@
 
         <div class="container">
             <div class="left box">
-                <h2>
-                    Albums
-                </h2>
-                <ol class="list box" style="padding-left: 35px">
-                    <li> Rodney Atkins - Take a back road </li>
-                    <li> Cole Swindell - You should be here </li>
-                    <li> Luke Bryan - Crash my party </li>
-                    <li> Rascal Flatts - Feels Like Today</li>
-                    <li> Luke Combs - This one's for you </li>
-                </ol>
+                <h3>Form Inputs</h3>
+                <form action="/api">
+                    <label for="resto"></label>
+                    <input type="text" name="resto" id="resto">
+                    <button type="submit">Submit</button>
+                </form>
             </div>
 
             <div class="right box">
-                <h2 class="image head">
-                    Image carousel
+                <h2 class="title">
+                    Local Resturants 
                 </h2>
-
-                <div class="carousel">
-
-                    <button class="prev"> Prev </button>
-
-                    <div class="slides">
-                        <div class="item visible">
-                            <img src='images/1964_AstonMartin_DB53.jpg' alt='DB53' />
-                        </div>
-                        <div class="item hidden">
-                            <img src='images/1964_AstonMartin_DB52.jpg' alt='DB52' />
-                        </div>
-                        <div class="item hidden">
-                            <img src='images/1969_BMW_2800Spicup1.jpg' alt='280' />
-                        </div>
-                        <div class="item hidden">
-                            <img src='images/1969_Dodge_Charger_Daytona.jpg' alt='charger' />
-                        </div>
-                        <div class="item hidden">
-                            <img src='images/1969_Dodge_Charger_Daytona_Hemi.jpg' alt='charger' />
-                        </div>
-                    </div>
-                    
-                    <button class="next"> Next </button>
-                    
-                </div>
-
-
                 <div class="caption box">
-                    Press Next for the next slide, Prev for the previous slide
+                    A list of resturants from an API.
                 </div>
             </div>
         </div>
