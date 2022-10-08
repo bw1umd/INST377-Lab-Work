@@ -122,8 +122,8 @@ router.route('/:category')
       const { foodServiceData: data } = req;
       const {category} = req.params;
 
-      // console.log('data', data); // debug logs to check what we're getting back
-      // console.log('category', category);
+      console.log('data', data); // debug logs to check what we're getting back
+      console.log('category', category);
 
       // this is a data filter!
       // it will run more quickly on your server than your client
