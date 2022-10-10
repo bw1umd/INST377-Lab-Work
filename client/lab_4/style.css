@@ -70,11 +70,12 @@ form {
 }
 
 .container {
+  background-color: #ffe08a;
   margin: 0 20px;
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-items: start;
-  flex:1;
 }
 
 .header {
