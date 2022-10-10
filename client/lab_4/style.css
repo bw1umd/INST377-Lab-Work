@@ -99,6 +99,7 @@ form {
   /* colors */
   background-color: #2af56b;
   color: #ffffff;
+  border-style: dashed;
 
   /* shapes */
   border-radius: 6px;
@@ -165,6 +166,7 @@ form {
   background-color: rgba(81, 87, 87, 0.8);
   font-size: 1.2rem;
   font-weight: 600;
+  border-style: dashed;
 }
 
 .footer a {
